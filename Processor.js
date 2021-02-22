@@ -1,10 +1,10 @@
 class Processor{
 
 	static process(data){
-		var a = data.split("\r\n");
+		var d = data.split("\r\n");
 		var rows = [];
-
-		a.forEach(row =>{
+	
+		d.forEach(row =>{
 			var arr = row.split(";")
 
 			rows.push(arr)

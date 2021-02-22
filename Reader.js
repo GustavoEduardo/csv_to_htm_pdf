@@ -4,7 +4,7 @@ const util = require("util");
 
 class Reader{
 	constructor(){
-		this.reader = util.promisify(fs.readFile);
+		this.reader = util.promisify(fs.readFile);//reader = uma versão promisse de readFile
 	}
 
 

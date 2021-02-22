@@ -5,7 +5,7 @@ class Table{
 		this.rows = arr
 	}
 
-	//get transforma a função em uma variave.(mais ou menos isso!)
+	//get transforma a função em uma variave.(mais ou menos isso!) usuarios.rowCount e não usuarios.rowCount()
 	get rowCount(){
 		return this.rows.length;
 	}

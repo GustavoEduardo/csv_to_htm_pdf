@@ -14,8 +14,6 @@ async function main(){
 
 	//usuarios.rows.push(["João","65","Analista","Porto Alegre"]) Adicionando uma linha a tabela. Campos virtuais!
 
-	console.log("Linhas: "+usuarios.rowCount)
-	console.log("Colunas: "+usuarios.columnCount)
 
 
 
